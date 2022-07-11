@@ -1,0 +1,26 @@
+{
+  "name": "complete-guide-section-5",
+  "version": "1.0.0",
+  "description": "Examples from the **\"Section 5: Working with Express.js\"** of the course **\"NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)\"** by Academind (Maximilian Schwarzmüller).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ropdias/node-complete-guide-section-5.git"
+  },
+  "author": "Rodrigo P. Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ropdias/node-complete-guide-section-5/issues"
+  },
+  "homepage": "https://github.com/ropdias/node-complete-guide-section-5#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
