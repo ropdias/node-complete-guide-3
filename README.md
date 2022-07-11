@@ -15,7 +15,7 @@ This section covered:
 - [x] Using Express Router
 - [x] Adding a 404 Error Page
 - [x] Filtering Paths
-- [ ] Creating HTML Pages
+- [x] Creating HTML Pages
 - [ ] Serving HTML Pages
 - [ ] Returning a 404 Page
 - [ ] Using a Helper Function for Navigation
