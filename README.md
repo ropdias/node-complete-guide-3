@@ -8,8 +8,8 @@ This section covered:
 - [x] Installing Express.js
 - [x] Adding Middleware
 - [x] How Middleware Works
-- [ ] Express.js - Looking Behind the Scenes
-- [ ] Handling Different Routes
+- [x] Express.js - Looking Behind the Scenes
+- [x] Handling Different Routes
 - [ ] Parsing Incoming Requests
 - [ ] Limiting Middleware Execution to POST Requests
 - [ ] Using Express Router
