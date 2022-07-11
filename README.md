@@ -17,7 +17,7 @@ This section covered:
 - [x] Filtering Paths
 - [x] Creating HTML Pages
 - [x] Serving HTML Pages
-- [ ] Returning a 404 Page
+- [x] Returning a 404 Page
 - [ ] Using a Helper Function for Navigation
 - [ ] Styling our Pages
 - [ ] Serving Files Statically
