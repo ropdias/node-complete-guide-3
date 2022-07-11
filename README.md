@@ -12,7 +12,7 @@ This section covered:
 - [x] Handling Different Routes
 - [x] Parsing Incoming Requests
 - [x] Limiting Middleware Execution to POST Requests
-- [ ] Using Express Router
+- [x] Using Express Router
 - [ ] Adding a 404 Error Page
 - [ ] Filtering Paths
 - [ ] Creating HTML Pages
