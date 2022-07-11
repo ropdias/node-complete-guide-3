@@ -7,7 +7,7 @@ This section covered:
 - [x] What is Express.js?
 - [x] Installing Express.js
 - [x] Adding Middleware
-- [ ] How Middleware Works
+- [x] How Middleware Works
 - [ ] Express.js - Looking Behind the Scenes
 - [ ] Handling Different Routes
 - [ ] Parsing Incoming Requests
