@@ -14,7 +14,7 @@ This section covered:
 - [x] Limiting Middleware Execution to POST Requests
 - [x] Using Express Router
 - [x] Adding a 404 Error Page
-- [ ] Filtering Paths
+- [x] Filtering Paths
 - [ ] Creating HTML Pages
 - [ ] Serving HTML Pages
 - [ ] Returning a 404 Page
