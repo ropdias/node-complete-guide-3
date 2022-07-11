@@ -10,8 +10,8 @@ This section covered:
 - [x] How Middleware Works
 - [x] Express.js - Looking Behind the Scenes
 - [x] Handling Different Routes
-- [ ] Parsing Incoming Requests
-- [ ] Limiting Middleware Execution to POST Requests
+- [x] Parsing Incoming Requests
+- [x] Limiting Middleware Execution to POST Requests
 - [ ] Using Express Router
 - [ ] Adding a 404 Error Page
 - [ ] Filtering Paths

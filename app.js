@@ -1,20 +1,22 @@
 const express = require("express");
-const bodyParser = require('body-parser');
+const bodyParser = require("body-parser");
 
 const app = express();
 
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/favicon.ico", (req, res) => res.sendStatus(204));
 
 app.use("/add-product", (req, res, next) => {
   console.log("In 'add-product' middleware!");
-  res.send("<form action='/product' method='POST'><input type='text' name='title'><button type='submit'>Add Product</button></form>");
+  res.send(
+    "<form action='/product' method='POST'><input type='text' name='title'><button type='submit'>Add Product</button></form>"
+  );
 });
 
-app.use('/product', (req, res, next) => {
+app.post("/product", (req, res, next) => {
   console.log(req.body);
-  res.redirect('/');
+  res.redirect("/");
 });
 
 app.use("/", (req, res, next) => {
