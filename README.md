@@ -16,7 +16,7 @@ This section covered:
 - [x] Adding a 404 Error Page
 - [x] Filtering Paths
 - [x] Creating HTML Pages
-- [ ] Serving HTML Pages
+- [x] Serving HTML Pages
 - [ ] Returning a 404 Page
 - [ ] Using a Helper Function for Navigation
 - [ ] Styling our Pages
