@@ -18,7 +18,7 @@ This section covered:
 - [x] Creating HTML Pages
 - [x] Serving HTML Pages
 - [x] Returning a 404 Page
-- [ ] Using a Helper Function for Navigation
+- [x] Using a Helper Function for Navigation
 - [ ] Styling our Pages
 - [ ] Serving Files Statically
 
