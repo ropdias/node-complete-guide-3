@@ -20,7 +20,7 @@ This section covered:
 - [x] Returning a 404 Page
 - [x] Using a Helper Function for Navigation
 - [x] Styling our Pages
-- [ ] Serving Files Statically
+- [x] Serving Files Statically
 
 
 
