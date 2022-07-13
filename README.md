@@ -19,7 +19,7 @@ This section covered:
 - [x] Serving HTML Pages
 - [x] Returning a 404 Page
 - [x] Using a Helper Function for Navigation
-- [ ] Styling our Pages
+- [x] Styling our Pages
 - [ ] Serving Files Statically
 
 
