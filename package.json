@@ -4,8 +4,9 @@
   "description": "Examples from the **\"Section 5: Working with Express.js\"** of the course **\"NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)\"** by Academind (Maximilian Schwarzmüller).",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start:dev": "tsx watch src/app.ts",
+    "start": "node build/app.js",
+    "build": "tsup src --out-dir build"
   },
   "repository": {
     "type": "git",
