@@ -1,20 +1,20 @@
-const path = require('path');
+import path from 'path';
 
-const express = require('express');
+import express, { Request, Response, NextFunction } from 'express';
 
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/users', (req, res, next) => {
+app.get('/users', (req: Request, res: Response, next: NextFunction) => {
   res.sendFile(path.join(__dirname, 'views', 'assignment3-users.html'));
 });
 
-app.get('/', (req, res, next) => {
+app.get('/', (req: Request, res: Response, next: NextFunction) => {
   res.sendFile(path.join(__dirname, 'views', 'assignment3-home.html'));
 });
 
-app.use((req, res, next) => {
+app.use((req: Request, res: Response, next: NextFunction) => {
   res.sendFile(path.join(__dirname, 'views', 'assignment3-404.html'));
 });
 

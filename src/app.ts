@@ -1,22 +1,22 @@
-const path = require('path');
+import path from 'path';
 
-const express = require('express');
-const bodyParser = require('body-parser');
+import express, { Request, Response, NextFunction } from 'express';
+import bodyParser from 'body-parser';
 
 const app = express();
 
-const adminRoutes = require('./routes/admin');
-const shopRoutes = require('./routes/shop');
+import adminRoutes from './routes/admin';
+import shopRoutes from './routes/shop';
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/favicon.ico', (req, res) => res.sendStatus(204));
+app.get('/favicon.ico', (req: Request, res: Response) => res.sendStatus(204));
 
 app.use('/admin', adminRoutes); // This will import all the routes in the admin.js in here. The middleware order still matters.
 app.use(shopRoutes);
 
-app.use((req, res, next) => {
+app.use((req: Request, res: Response, next: NextFunction) => {
   res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
 });
 
